@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090309">
+<title>Les musiques pour Eloïse ♡</title>
+<style>
+:root{--pink:#ff65b7;--pink2:#ff9bd4;--bg:#080508;--panel:#140914;--muted:#e7c6da}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% 0%,#35102c 0%,var(--bg) 48%,#050305 100%);color:#fff;font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:5;background:#080508eF;border-bottom:1px solid #ff65b766;backdrop-filter:blur(12px);padding:13px 5vw;display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{color:var(--pink2);font-weight:700;letter-spacing:.04em}
+nav{display:flex;gap:18px;flex-wrap:wrap}a{color:inherit}nav a{text-decoration:none;color:#f6c9e2;font-size:.95rem}
+.hero{min-height:360px;padding:65px 20px 48px;text-align:center;position:relative;overflow:hidden;background:linear-gradient(90deg,#080508dd,#160817aa,#080508dd),radial-gradient(ellipse at 80% 35%,#a11d67 0,transparent 35%),radial-gradient(ellipse at 15% 40%,#5e183f 0,transparent 40%)}
+.hero:before,.hero:after{content:"♡";position:absolute;color:#ff65b755;text-shadow:0 0 20px #ff4eaa;pointer-events:none}
+.hero:before{font-size:110px;left:6%;top:35px;transform:rotate(-16deg)}.hero:after{font-size:145px;right:7%;top:85px;transform:rotate(12deg)}
+.eyebrow{color:var(--pink2);letter-spacing:.2em;text-transform:uppercase;font-size:.78rem}
+h1{font-size:clamp(2.5rem,8vw,5.5rem);line-height:1.03;margin:14px 0;color:#ff9bd4;text-shadow:0 0 22px #ff3e9c66;font-family:Georgia,serif;font-style:italic}
+.hero p{max-width:600px;margin:14px auto;color:#f4d8e8;line-height:1.65}
+.pill{display:inline-block;margin-top:10px;padding:9px 17px;border:1px solid #ff65b7;border-radius:999px;color:#ffd9ec;background:#210d1e}
+main{max-width:1120px;margin:auto;padding:30px 18px 65px}
+.section-head{text-align:center;margin:0 0 24px}.section-head h2{color:var(--pink2);font-family:Georgia,serif;font-size:2rem;margin-bottom:6px}.section-head p{color:#d9b7cb;margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:20px}
+.card{border:1px solid #ff65b788;border-radius:18px;padding:17px;background:linear-gradient(145deg,#1b0b19f5,#090609f5);box-shadow:0 0 22px #ff3e9c12;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 0 24px #ff3e9c2b}
+.card-top{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.heart{font-size:2.2rem;color:var(--pink);text-shadow:0 0 13px #ff329d;line-height:1}
+h3{font-family:Georgia,serif;font-style:italic;color:var(--pink2);font-size:1.45rem;margin:0}
+.subtitle{color:#e7c6da;font-size:.9rem;margin-top:3px}
+.player{aspect-ratio:16/9;width:100%;border:0;border-radius:10px;background:#160b16}
+.caption{text-align:center;color:#f2cfe2;font-size:.92rem;line-height:1.5;margin:13px 3px 2px}
+footer{text-align:center;padding:45px 20px 55px;color:#f2cfe2;background:linear-gradient(0deg,#250c20aa,transparent)}
+footer .big{font-family:Georgia,serif;font-style:italic;font-size:clamp(1.8rem,5vw,3rem);color:var(--pink2);text-shadow:0 0 16px #ff3e9c66}
+footer p{margin:8px 0}
+.note{font-size:.78rem;color:#bfa6b6;max-width:650px;margin:22px auto 0;line-height:1.5}
+@media(max-width:520px){header{align-items:flex-start;flex-direction:column}nav{gap:14px}.hero{padding-top:48px}.hero:before{left:-20px}.hero:after{right:-25px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">♡ POUR ELOÏSE</div>
+  <nav aria-label="Navigation"><a href="#accueil">Accueil</a><a href="#musiques">♫ Musiques</a><a href="#message">♡ Pour toi</a></nav>
+</header>
+<section class="hero" id="accueil">
+  <div class="eyebrow">Une petite playlist rien que pour toi</div>
+  <h1>Les musiques pour<br>Eloïse ♡</h1>
+  <p>Sept musiques, sept émotions, une personne spéciale. J’espère que ces chansons te feront sourire.</p>
+  <div class="pill">♡ 7 musiques · pensées pour toi ♡</div>
+</section>
+<main id="musiques">
+  <div class="section-head"><h2>Ta playlist</h2><p>Appuie sur lecture pour écouter chaque musique.</p></div>
+  <div class="grid">
+    <article class="card"><div class="card-top"><div class="heart">♡1</div><div><h3>Musique 1</h3><div class="subtitle">Une mélodie pour toi</div></div></div><iframe class="player" src="https://www.youtube-nocookie.com/embed/ifNfpzkoY9s" title="Musique 1 pour Eloïse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="caption">Chaque note me rappelle à quel point tu es spéciale. ♡</p></article>
+    <article class="card"><div class="card-top"><div class="heart">♡2</div><div><h3>Musique 2</h3><div class="subtitle">Pour tes sourires</div></div></div><iframe class="player" src="https://www.youtube-nocookie.com/embed/cccipN3Rq5w" title="Musique 2 pour Eloïse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="caption">Tu rends les journées plus belles. ♡</p></article>
+    <article class="card"><div class="card-top"><div class="heart">♡3</div><div><h3>Musique 3</h3><div class="subtitle">Toujours avec toi</div></div></div><iframe class="player" src="https://www.youtube-nocookie.com/embed/hBeNj5mX3To" title="Musique 3 pour Eloïse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="caption">Une chanson qui me fait penser à toi. ♡</p></article>
+    <article class="card"><div class="card-top"><div class="heart">♡4</div><div><h3>Musique 4</h3><div class="subtitle">Dans mon cœur</div></div></div><iframe class="player" src="https://www.youtube-nocookie.com/embed/N3NW9PP4iqU" title="Musique 4 pour Eloïse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="caption">Un petit morceau choisi avec le cœur. ♡</p></article>
+    <article class="card"><div class="card-top"><div class="heart">♡5</div><div><h3>Musique 5</h3><div class="subtitle">Toujours plus loin</div></div></div><iframe class="player" src="https://www.youtube-nocookie.com/embed/bal8oESDH7s" title="Musique 5 pour Eloïse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="caption">Avec toi, les petits moments comptent. ♡</p></article>
+    <article class="card"><div class="card-top"><div class="heart">♡6</div><div><h3>Musique 6</h3><div class="subtitle">Notre histoire</div></div></div><iframe class="player" src="https://www.youtube-nocookie.com/embed/EjCx3Yt0s1E" title="Musique 6 pour Eloïse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="caption">Pour tous les beaux souvenirs à partager. ♡</p></article>
+    <article class="card"><div class="card-top"><div class="heart">♡7</div><div><h3>Musique 7</h3><div class="subtitle">Ma préférée</div></div></div><iframe class="player" src="https://www.youtube-nocookie.com/embed/-68R6v7JgjI" title="Musique 7 pour Eloïse" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><p class="caption">Parce que tu es une personne spéciale. ♡</p></article>
+  </div>
+</main>
+<footer id="message">
+  <div class="big">Merci d’être toi… ♡</div>
+  <p>J’espère que cette playlist te fera sourire.</p>
+  <div style="color:#ff65b7;font-size:1.4rem;margin-top:12px">♡ · ♡ · ♡</div>
+  <p class="note">Les vidéos sont intégrées depuis YouTube. Certaines peuvent ne pas autoriser la lecture intégrée ; dans ce cas, ouvre-les directement sur YouTube.</p>
+</footer>
+</body>
+</html>
